@@ -1,0 +1,48 @@
+section h1{
+    font-size:4em;
+}
+section:nth-child(1){
+    background-color: coral;
+    padding: 5em;
+    text-align: center;
+    color:white;
+    height: 100vh;
+}
+
+section:nth-child(2){
+    background-color:gray;
+    padding: 5em;
+    text-align: center;
+    color:white;
+    height: 100vh;
+}
+
+section:nth-child(3){
+    background-color:rgb(75, 8, 41);
+    padding: 5em;
+    text-align: center;
+    color:white;
+    height: 100vh;
+}
+
+section:nth-child(4){
+    background-color:rgb(117, 161, 51);
+    padding: 5em;
+    text-align: center;
+    color:white;
+    height: 100vh;
+    transform: translateY(200px) scale(1.05) translate3d(0, 1, 0);
+}
+
+.flip {
+    background-color:rgb(51, 68, 66);
+    color:coral;
+}
+
+.panel{
+    display: none;
+    background-color: cyan;
+    color:black;
+    padding: 4em;
+    text-align: center;
+}
